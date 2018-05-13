@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PinterestCopyLayoutChallenge</string>
+    <string name="search">search</string>
+    <string name="pics">pics</string>
+    <string name="this_are_the_special_flowers">This are the special flowers</string>
+    <string name="profile">profile</string>
+</resources>

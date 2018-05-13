@@ -1,0 +1,223 @@
+<ScrollView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:orientation="vertical"
+        android:id="@+id/ll1"
+        android:layout_marginLeft="0dp"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="140dp"
+        android:layout_height="194dp"
+        android:layout_margin="15dp"
+        card_view:cardElevation="25dp"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgview"
+                android:layout_width="90dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/flowers"
+                android:contentDescription="@string/pics" />
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/imgview"
+                android:text="@string/this_are_the_special_flowers" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view1"
+        android:layout_width="140dp"
+        android:layout_height="207dp"
+        card_view:cardElevation="25dp"
+        android:layout_marginLeft="20dp"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgview1"
+                android:layout_width="90dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/android" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imgview1"
+                android:layout_marginLeft="10dp"
+                android:text="Android is a fastest growing OS" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view4"
+            android:layout_width="140dp"
+            android:layout_height="207dp"
+            card_view:cardElevation="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            card_view:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgview4"
+                    android:layout_width="130dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/udacity" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imgview4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Best learning Website" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_toRightOf="@+id/ll1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2"
+        android:layout_width="140dp"
+        android:layout_height="207dp"
+        card_view:cardElevation="25dp"
+        android:layout_marginTop="20dp"
+        android:transformPivotX="250dp"
+        android:transformPivotY="25dp"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgview2"
+                android:layout_width="90dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/androidp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imgview2"
+                android:layout_marginLeft="10dp"
+                android:text="Android P is latest OS" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view3"
+            android:layout_width="140dp"
+            card_view:cardElevation="25dp"
+            android:layout_height="207dp"
+            android:layout_marginTop="20dp"
+            android:transformPivotX="250dp"
+            android:transformPivotY="25dp"
+            card_view:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgview3"
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/nanodegree" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imgview3"
+                    android:layout_marginLeft="10dp"
+                    android:text="Udacity Nanodegree course" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view5"
+            android:layout_width="140dp"
+            card_view:cardElevation="25dp"
+            android:layout_height="207dp"
+            android:layout_marginTop="20dp"
+            card_view:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgview5"
+                    android:layout_width="90dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/tech_meme" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imgview5"
+                    android:layout_marginLeft="10dp"
+                    android:text="Check this tech meme" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
